@@ -1,19 +1,20 @@
 ---
 # the default layout is 'page'
+title: About
 icon: fas fa-info-circle
 order: 4
 ---
 
-> Learn and live.
-{: .prompt-tip }
+## 🫶Introduce
 
-# 🫶Introduce
+I am Xie Zhihong, majoring in Artificial Intelligence. I hope to share some technical articles here.
 
-"I am Xie Zhihong, majoring in Artificial Intelligence. I hope to share some technical articles here."
-
-# 🎓Educational experience
+## 🎓Educational experience
 
 - Jiangxi Normal University, Bachelor's degree
 - Zhengzhou University, Master's degree
 
-# 📝Publications
+## 📝Publications
+
+> Learn and live.
+{: .prompt-tip }
