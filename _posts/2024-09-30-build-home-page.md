@@ -4,9 +4,6 @@ date: 2024-09-30 01:16:53 +0800
 categories: [Practical skills]
 tags: [Practical skills]
 ---
-
-> [!tip]
->
 > 官方文档：https://chirpy.cotes.page/posts/getting-started/
 
 # 1 环境和工具
@@ -22,15 +19,13 @@ tags: [Practical skills]
 具体步骤如下：
 
 1. 进入 [starter](https://github.com/cotes2020/chirpy-starter)
-2. 点击 ==Use this template==，然后选择 ==Create a new repository==
+2. 点击 `Use this template`，然后选择 `Create a new repository`
 3. 为这个仓库命名为 `<username>.github.io`，使用 GitHub 用户名的小写替换掉 username
 
-当我们将上述操作完成后，可以开始配置一些基础配置，编辑 `config.yml`，修改重要参数，例如：timezone, title, **url**, avatar 等
+当我们将上述操作完成后，可以开始配置一些基础配置，编辑 `config.yml`，修改重要参数，例如：timezone, title, **url**, avatar, **social.name** 等
 
 
 
-> [!note]
->
 > 完成后，我们可以在 `Actions` 中看到工作流（workflow）的运行情况
 
 
@@ -65,3 +60,6 @@ tags: [Practical skills]
 # github pages + jekyll-theme-chirpy 搭建个人网站和博客
 这是我的第一篇笔记
 ```
+
+之后通过 git 工具，将文件上传到远程仓库即可
+
