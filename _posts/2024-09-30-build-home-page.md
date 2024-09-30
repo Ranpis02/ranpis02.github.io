@@ -41,7 +41,7 @@ image: https://chirpy-img.netlify.app/commons/devices-mockup.png
 
 在本地运行测试
 
-```Terminal
+```bash
 bundle exec jekyll s
 ```
 
