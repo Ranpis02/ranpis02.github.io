@@ -1,8 +1,8 @@
 ---
 title: 'MATLAB 基本配置'
 date: 2024-12-12 00:49:31 +0800
-categories: [MATLAB]
-tags: [MATLAB]
+categories: [matlab]
+tags: [matlab]
 ---
 
 ## 切换语言

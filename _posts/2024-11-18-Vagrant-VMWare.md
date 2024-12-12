@@ -1,8 +1,8 @@
 ---
 title: '使用 Vagrant 管理 VMware 上的虚拟机'
 date: 2024-11-18 23:44:11 +0800
-categories: [Vagrant]
-tags: [VMware, Vagrant]
+categories: [vagrant]
+tags: [vmware, vagrant]
 ---
 
 ## 安装 VMware 虚拟机
