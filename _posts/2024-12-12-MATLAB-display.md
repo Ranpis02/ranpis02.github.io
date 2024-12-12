@@ -29,3 +29,7 @@ cd DRIVE:\<MATLAB_PATH>\bin\win64
 ```shell
 install_supportsoftware.exe -archives <archives_path>
 ```
+
+🔑 安装 `New Desktop for MATLAB Tech Preview` 发现语言无法中英文切换
+
+`New Desktop for MATLAB Tech Preview` 下载安装时会根据当前 Windows 系统语言决定安装的是哪一个语言的界面且后续无法更改，因此如果我们如果想要修改界面语言，需要将插件卸载后更换系统语言然后重新安装插件，此时界面语言才会换成我们想要的
