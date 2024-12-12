@@ -47,4 +47,4 @@ install_supportsoftware.exe -archives <archives_path>
 -c <license_path>
 ```
 
-其中 license 的文件一直一般在 `DRIVE:\<MATLAB_PATH>\licenses` 下
+其中 license 文件的位置一般在 `DRIVE:\<MATLAB_PATH>\licenses` 目录下
