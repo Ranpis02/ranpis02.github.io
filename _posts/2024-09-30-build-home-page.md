@@ -1,8 +1,8 @@
 ---
 title: 'github pages + jekyll-theme-chirpy 搭建个人网站和博客'
 date: 2024-09-30 01:16:53 +0800
-categories: [practical skills]
-tags: [practical skills]
+categories: [tools]
+tags: [homepage]
 image: https://chirpy-img.netlify.app/commons/devices-mockup.png
 ---
 > 官方教程：<https://chirpy.cotes.page/posts/getting-started/>

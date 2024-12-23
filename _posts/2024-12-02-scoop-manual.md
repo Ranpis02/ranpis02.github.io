@@ -1,8 +1,8 @@
 ---
 title: 'Scoop 的基本使用'
 date: 2024-12-02 19:03:11 +0800
-categories: [scoop]
-tags: [tools]
+categories: [tools]
+tags: [scoop]
 ---
 
 ## 配置安装路径
