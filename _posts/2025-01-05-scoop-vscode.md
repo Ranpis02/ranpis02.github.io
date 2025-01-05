@@ -1,6 +1,6 @@
 ---
 title: 'scoop 安装 vscode 后扩展无法使用'
-date: 2024-01-05 13:04:10 +0800
+date: 2025-01-05 13:04:10 +0800
 categories: [bug]
 tags: [scoop, vscode]
 ---
