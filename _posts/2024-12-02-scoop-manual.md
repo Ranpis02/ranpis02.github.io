@@ -112,6 +112,12 @@ scoop install <app_name> -g
 # 更新 scoop 以及 bucket
 scoop update
 
+# 禁止更新 app
+scoop hold <app_name>
+
+# 仅下载 app 
+scoop download <app_name>
+
 # 清除 app 以及配置文件
 scoop uninstall <app_name> -p
 
