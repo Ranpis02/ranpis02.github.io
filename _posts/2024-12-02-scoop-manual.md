@@ -87,6 +87,9 @@ scoop bucket rm <bucket_name>
 # 查找 app
 scoop search <app_name>
 
+# 仅下载 app 
+scoop download <app_name>
+
 # 安装 app
 scoop install <app_name>
 
@@ -115,9 +118,6 @@ scoop update
 # 禁止更新 app
 scoop hold <app_name>
 
-# 仅下载 app 
-scoop download <app_name>
-
 # 清除 app 以及配置文件
 scoop uninstall <app_name> -p
 
@@ -126,6 +126,15 @@ scoop cleanup *
 
 # 清除软件缓存（即 cache 文件夹中的文件）
 scoop cache rm *
+
+# 查看相关配置
+scoop list
+
+# 配置相关项
+scoop config <key> <value>
+
+# 去除配置项
+scoop config rm <key>
 ```
 
 ## 其他更多
