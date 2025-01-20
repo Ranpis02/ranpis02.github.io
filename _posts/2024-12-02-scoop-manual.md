@@ -128,7 +128,7 @@ scoop cleanup *
 scoop cache rm *
 
 # 查看相关配置
-scoop list
+scoop config
 
 # 配置相关项
 scoop config <key> <value>
