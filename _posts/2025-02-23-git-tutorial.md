@@ -1,7 +1,7 @@
 ---
 title: 'Git 使用问题集合(持续更新中)'
 date: 2025-02-23 00:33:18 +0800
-categories: [tool]
+categories: [tools]
 tags: [git]
 ---
 
