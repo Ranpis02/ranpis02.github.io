@@ -28,7 +28,6 @@ tags: [unreal]
    - .NET desktop development
    - Desktop development with C++
    - Universal Windows Platform development
-   - Game development with C++ 
+   - Game development with C++
 2. 右键 `xxx.uproject`，选择 `Generate Visual Studio project file`
 3. 重新双击打开 UE 项目
-

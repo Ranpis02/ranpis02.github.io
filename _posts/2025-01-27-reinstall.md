@@ -11,8 +11,10 @@ tags: [windows]
 {: .prompt-warning }
 
 准备工具
+
 - [Rufus](https://rufus.ie/en/): 用于制作启动盘的软件
 - 8GB 以上的 U 盘
+
 > 如果你的 U 盘不支持大文件写入，大概率是由于 U 盘的 FS 格式为 FAT32 等，该格式无法存入 4GB 大小以上的单文件，解决方法就是将其文件系统格式化为 NTFS
 {: .prompt-tip }
 
@@ -20,13 +22,13 @@ tags: [windows]
 > 在为 U 盘制作启动盘时，U 盘内原来的所有文件都会被删除，所以不要将 `.iso` 文件放在 U 盘
 {: .prompt-warning }
 
-基本设置如下，`image option` 如果设置为 `Windows To Go` 代表将系统直接安装到 U 盘中，`File system` 如果设置为 `ReFS`，则存在严重的不兼容问题，所以设置保持默认即可，没有特殊情况不要进行更改 
+基本设置如下，`image option` 如果设置为 `Windows To Go` 代表将系统直接安装到 U 盘中，`File system` 如果设置为 `ReFS`，则存在严重的不兼容问题，所以设置保持默认即可，没有特殊情况不要进行更改
 
-<img src="https://thinkbook16-blog-img.oss-cn-zhangjiakou.aliyuncs.com/img_for_typora/image-20250128002110971.png" alt="image-20250128002110971" style="zoom: 67%;" />
+![image-20250128002110971](https://thinkbook16-blog-img.oss-cn-zhangjiakou.aliyuncs.com/img_for_typora/image-20250128002110971.png)
 
 对于体验设置，移除 `TPM2.0` 模块是必选的，其他可以根据自己情况。如果自己有微软账户，需要和微软账户保持同步，建议不移除微软账户(online microsoft account)，反之移除并且创建一个本地账户(local account)。同时，建议将 `BitLocker` 也移除（最新版有对应选项），`BitLocker` 加密容易导致数据丢失以及影响读写速度，总体而言弊大于利。
 
-<img src="https://thinkbook16-blog-img.oss-cn-zhangjiakou.aliyuncs.com/img_for_typora/image-20250128124342035.png" alt="image-20250128124342035" style="zoom: 80%;" />
+![image-20250128124342035](https://thinkbook16-blog-img.oss-cn-zhangjiakou.aliyuncs.com/img_for_typora/image-20250128124342035.png)
 
 ## 开始重装
 
@@ -38,4 +40,3 @@ U 盘启动：重启电脑，进入 `BIOS` 界面，以 U 盘启动，例如对�
 
 1. 如果发现自己电脑没有连接宽带，无法连接网络下载网卡驱动，可以使用 USB 连接电脑和手机，然后打开手机的 `USB tethering`(USB 网络共享)
 2. 安装系统到磁盘时，先删除之前的磁盘分区删除，然后合并到一个盘，重装完成后，如果有分盘需求再到 `Disk Management` 中进行分盘
-
