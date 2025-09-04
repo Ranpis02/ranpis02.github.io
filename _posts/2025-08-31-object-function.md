@@ -1,5 +1,5 @@
 ---
-title: 'shorthand in ES6'
+title: 'Shorthand in ES6'
 date: 2025-08-31 16:33:18 +0800
 categories: [JavaScript]
 tags: [syntax]
