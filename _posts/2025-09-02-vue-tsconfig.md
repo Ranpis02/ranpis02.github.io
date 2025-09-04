@@ -1,5 +1,5 @@
 ---
-title: 'Solve File '@tsconfig/node22/tsconfig.json' not found.'
+title: "Solve File '@tsconfig/node22/tsconfig.json' not found."
 date: 2025-09-02 19:59:00 +0800
 categories: [bug]
 tags: [vue]
