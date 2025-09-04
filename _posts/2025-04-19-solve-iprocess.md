@@ -1,5 +1,5 @@
 ---
-title: 'solve the issue of "TqdmWarning: IProgress not found"'
+title: 'Solve the issue of "TqdmWarning: IProgress not found"'
 date: 2025-04-19 21:43:11 +0800
 categories: [issue]
 tags: [transformers, hugging-face, tqdm]
