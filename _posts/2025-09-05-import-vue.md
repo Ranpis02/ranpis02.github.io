@@ -49,7 +49,7 @@ tags: [vue]
 
 除了上述方法，还可以直接从 CDN 中 `import` 需要的函数，只需要将 `<script>` 的 `type` 属性的值设置为 `module` 即可（默认为 `application/javascript`）
 
-```js
+```html
 <script type="module">
   import {
     createApp,
