@@ -54,7 +54,7 @@ tags: [vue]
   import {
     createApp,
     ref,
-  } from "https://unpkg.com/vue@3.5.21/dist/vue.global.js"
+  } from "https://unpkg.com/vue@3.5.21/dist/vue.esm-browser.js"
 
   const count = ref(0)
 
