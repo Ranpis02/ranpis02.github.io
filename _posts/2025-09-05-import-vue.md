@@ -15,7 +15,7 @@ tags: [vue]
 
 1. 先导入对应的 CDN
 
-   ```js
+   ```html
    <script src="https://unpkg.com/vue@3.5.21/dist/vue.global.js"></script>
    ```
 
