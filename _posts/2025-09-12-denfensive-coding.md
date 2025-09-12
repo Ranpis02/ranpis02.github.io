@@ -50,21 +50,21 @@ tags: [syntax]
 
 3. 使用 Double not `!!` 替代布尔转化
 
-    ```js
-    const a = "hello"
-    const b = undefined
-    const c = null
-    const d = 0
-    const e = NaN
-    
-    console.log(!!a) // true
-    console.log(!!b) // false
-    console.log(!!c) // false
-    console.log(!!d) // false
-    console.log(!!e) // false
-    
-    // Equvalent to Boolean(value)
-    ```
+   ```js
+   const a = "hello"
+   const b = undefined
+   const c = null
+   const d = 0
+   const e = NaN
+   
+   console.log(!!a) // true
+   console.log(!!b) // false
+   console.log(!!c) // false
+   console.log(!!d) // false
+   console.log(!!e) // false
+   
+   // Equvalent to Boolean(value)
+   ```
 
 4. 显示类型转化
 
